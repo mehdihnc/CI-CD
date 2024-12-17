@@ -1,0 +1,17 @@
+{
+  "name": "mon-projet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0"
+  },
+  "license": "ISC",
+  "description": ""
+}
