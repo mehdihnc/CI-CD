@@ -1,9 +1,8 @@
 module.exports = {
   testEnvironment: 'node',
   transform: {
-    '^.+\\.js$': ['babel-jest', { configFile: './.babelrc' }]
+    '^.+\\.js$': ['babel-jest']
   },
   testMatch: ['**/__tests__/**/*.test.js'],
-  verbose: true,
-  rootDir: 'src'
+  verbose: true
 }; 
