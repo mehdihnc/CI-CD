@@ -23,6 +23,9 @@ app.get('/users', async (req, res) => {
   }
 });
 
+app.get('/test', (req, res) => {
+  res.json({ message: 'Hot reload fonctionne !' });
+});
 
 app.use((err, req, res, next) => {
   console.error(err.stack);

@@ -4,10 +4,12 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm ci
+RUN npm install
+
+RUN npm install -g nodemon
 
 COPY . .
 
 EXPOSE 3000
 
-CMD ["node", "src/index.js"] 
+CMD ["npm", "run", "dev"] 
